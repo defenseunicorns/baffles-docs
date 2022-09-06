@@ -6,15 +6,15 @@ const { SocialsBox } = require("./static-components/SocialsBox/SocialsBox");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Zarf Documentation",
-  tagline: "Airgap is hard. Docs are too.",
-  url: "https://zarf.dev",
+  title: "Baffles Documentation",
+  tagline: "Anyapp Anywhere",
+  url: "https://baffles.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.svg",
   organizationName: "Defense Unicorns", // Usually your GitHub org/user name.
-  projectName: "Zarf", // Usually your repo name.
+  projectName: "Baffles", // Usually your repo name.
   themes: [
     [require.resolve("@easyops-cn/docusaurus-search-local"), { hashed: true }],
   ],
@@ -24,9 +24,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: "zarf-repo/docs/",
+          path: "baffles-repo/docs/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/defenseunicorns/zarf/tree/master/",
+          editUrl: "https://github.com/defenseunicorns/baffles/tree/master/",
         },
         blog: false,
         theme: {
@@ -45,10 +45,10 @@ const config = {
       },
       navbar: {
         logo: {
-          alt: "Zarf",
-          src: "img/zarf-logo-light.svg",
-          srcDark: "img/zarf-logo-dark.svg",
-          href: "https://zarf.dev/",
+          alt: "Baffles",
+          src: "img/baffles-logo-light.svg",
+          srcDark: "img/baffles-logo-dark.svg",
+          href: "https://baffles.dev/",
           target: "_self",
         },
         items: [
@@ -58,14 +58,14 @@ const config = {
           },
           {
             type: "doc",
-            docId: "zarf-overview",
+            docId: "baffles-overview",
             position: "left",
             label: "Docs",
           },
           {
             position: "left",
             label: "Product",
-            to: "https://zarf.dev",
+            to: "https://baffles.dev",
             target: "_self",
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
@@ -82,12 +82,12 @@ const config = {
       footer: {
         style: "dark",
         logo: {
-          alt: "Zarf",
-          src: "img/zarf-logo-light.svg",
-          srcDark: "img/zarf-logo-dark.svg",
-          href: "https://zarf.dev/",
+          alt: "Baffles",
+          src: "img/baffles-logo-light.svg",
+          srcDark: "img/baffles-logo-dark.svg",
+          href: "https://baffles.dev/",
         },
-        copyright: `<p class="p-copy">Copyright © ${new Date().getFullYear()} Zarf Project, All rights reserved.</p>`,
+        copyright: `<p class="p-copy">Copyright © ${new Date().getFullYear()} Baffles Project, All rights reserved.</p>`,
         links: [
           {
             html: SocialsBox(),

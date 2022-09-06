@@ -21,3 +21,4 @@ yarn-error.log*
 
 # Code Editor
 .vscode/settings.json
+.idea

@@ -1,10 +1,9 @@
-# Zarf - Docs Site
+# Baffles - Docs Site
 
-[![Zarf Slack Channel](https://img.shields.io/badge/k8s%20slack-zarf-40a3dd)](https://kubernetes.slack.com/archives/C03B6BJAUJ3)
-[![Zarf Website](https://img.shields.io/badge/web-zarf.dev-6d87c3)](https://zarf.dev/)
-[![Zarf Documentation](https://img.shields.io/badge/docs-docs.zarf.dev-775ba1)](https://docs.zarf.dev/)
+[![Baffles Website](https://img.shields.io/badge/web-baffles.dev-6d87c3)](https://baffles.dev/)
+[![Baffles Documentation](https://img.shields.io/badge/docs-docs.baffles.dev-775ba1)](https://docs.baffles.dev/)
 
-This is the docs site for [Zarf](https://github.com/defenseunicorns/zarf), a declarative air gap solution for Kubernetes.  This site is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator created by Facebook.
+This is the docs site for [Baffles](https://github.com/defenseunicorns/baffles), a declarative air gap solution for Kubernetes.  This site is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator created by Facebook.
 
 ### Prerequisites
 
@@ -28,9 +27,9 @@ To install required dependencies run the following:
 $ npm i
 ```
 
-### Updating Zarf `docs` Files
+### Updating Baffles `docs` Files
 
-The markdown files for Zarf are held in the main Zarf repo and are pulled into this repo using a submodule.  To update the reference to those docs run the following command:
+The markdown files for Baffles are held in the main Baffles repo and are pulled into this repo using a submodule.  To update the reference to those docs run the following command:
 
 ```shell
 $ git submodule update --remote --recursive master
@@ -41,7 +40,7 @@ You may also find it useful to switch to a different branch for the submodule.  
 ```
 [submodule "master"]
 	path = master
-	url = https://github.com/defenseunicorns/zarf.git
+	url = https://github.com/defenseunicorns/baffles.git
     branch = <your-branch-here>
 ```
 
