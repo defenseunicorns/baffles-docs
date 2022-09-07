@@ -5,6 +5,10 @@
 
 This is the docs site for [Baffles](https://github.com/defenseunicorns/baffles), a declarative air gap solution for Kubernetes.  This site is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator created by Facebook.
 
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+
 ### Prerequisites
 
 This site requires `nodejs` and `npm` so install it if you haven't already.
