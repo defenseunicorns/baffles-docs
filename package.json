@@ -11,7 +11,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "update-docs": "git submodule update --remote --recursive; git add baffles-repo; git commit -m 'Update Docs'; git push"
   },
   "dependencies": {
     "@docusaurus/core": "2.1.0",

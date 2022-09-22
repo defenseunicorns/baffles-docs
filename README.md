@@ -36,7 +36,10 @@ $ npm i
 The markdown files for Baffles are held in the main Baffles repo and are pulled into this repo using a submodule.  To update the reference to those docs run the following command:
 
 ```shell
+# safe version
 $ git submodule update --remote --recursive master
+# impatient version
+$ npm run update-docs # Not will commit and push the changes; be warned
 ```
 
 You may also find it useful to switch to a different branch for the submodule.  You can do this by adding a `branch` to `.gitmodules`:
