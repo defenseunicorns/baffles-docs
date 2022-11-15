@@ -3,7 +3,7 @@
 [![Baffles Website](https://img.shields.io/badge/web-baffles.dev-6d87c3)](https://baffles.dev/)
 [![Baffles Documentation](https://img.shields.io/badge/docs-docs.baffles.dev-775ba1)](https://docs.baffles.dev/)
 
-This is the docs site for [Baffles](https://github.com/defenseunicorns/baffles), a declarative air gap solution for Kubernetes.  This site is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator created by Facebook.
+This is the docs site for [Baffles UI](https://github.com/defenseunicorns/baffles-ui). This site is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator created by Facebook.
 
 ## Contributing
 
@@ -37,7 +37,7 @@ The markdown files for Baffles are held in the main Baffles repo and are pulled 
 
 ```shell
 # safe version
-$ git submodule update --remote --recursive master
+$ git submodule update --remote --recursive
 # impatient version
 $ npm run update-docs # Not will commit and push the changes; be warned
 ```
